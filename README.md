@@ -1,5 +1,28 @@
 # lc2.TN
 DBS GitHub lecture
+
+|No.|リーダー|サブリーダー|
+|--:|:--|:--|
+|5|NK|NB|
+
+|テーブルID|データベース名|説明|
+|:--|:--|:--|
+|VS_PgmOutlineDB|プログラム概要ＤＢ|プログラムに共通の情報を登録するＤＢ。<br>プログラム毎に１レコード（例えば、V001:猫保護活動 で１レコード）。<br>ただし、本の整理のように偶数月、奇数月で異なる場合には枝番を持つ。|
+|VS_PgmScheduleDB|開催日程情報ＤＢ|プログラムの開催情報を登録するＤＢ。<br>プログラム開催毎に１レコード（例えば、V001:猫保護活動3/20 で１レコード）|
+|VS_LeaderReportDB|リーダー報告結果ＤＢ|リーダー報告結果を入力するＤＢ。<br>同一開催日程内でリーダー毎に１レコード|
+
+
+
+[Google](https://www.google.co.jp/)
+
+[こっちからgoogle][google]
+その他の文章
+[こっちからもgoogle][google]
+
+
+    https://www.google.com/
+
+
 # 見出し1
 今日はありがとうございますaaaaaaaa見出し１。
 ## 見出し2
@@ -18,7 +41,6 @@ DBS GitHub lecture
   +  ネストレベル２のリスト
   +  ネストレベル２のリストその２
     * ネストレベル３のリストその１
-  - ネストレベル２に戻りました
 
 1. ネストレベル２で数字のリスト
   1. ネストレベル２で数字のリスト
@@ -31,21 +53,34 @@ DBS GitHub lecture
 >> 引用文の２つ目です。長い文章だとどのように扱われるのでしょうかねぇ。  
 >> 引用文の３つ目です。長い文章だとどのように扱われるのでしょうかねぇ。  
 >> 引用文の４つ目です。長い文章だとどのように扱われるのでしょうかねぇ。   
->> 引用文の５つ目です。長い文章だとどのように扱われるのでしょうかねぇ。  
-> 引用文の６つ目です。長い文章だとどのように扱われるのでしょうかねぇ。  
-    3. 
-    4. 
-    
+
     This is source code
     <?php
     $in_data = $In\screen;
     ?>
 
+```php
+if ($In_FollowAct01 == '1' ) {
+    $InText_FollowAct［1］ = $$const_FollowAct01;
+} 
+if ($In_FollowAct02 == '1' ) {
+    $InText_FollowAct[2] = $$const_FollowAct02;
+} 
+```
 
 
+ありがとう Thank you 
+_ありがとう Thank you US_
+*ありがとう Thank you AST*
+**ありがとう Thank you AST2**
 
+___
 
+---
 
+***
+
+[Google先生](https://www.google.co.jp/)
 
 
 
